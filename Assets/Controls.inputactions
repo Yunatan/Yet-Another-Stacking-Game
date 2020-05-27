@@ -1,0 +1,55 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "e7cc7dfa-2db2-448b-a67a-83fc43868eb7",
+            "actions": [
+                {
+                    "name": "Stack",
+                    "type": "Button",
+                    "id": "8fee3bc4-b3c6-40c5-a501-77af4ea396cf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6fcc2ed9-c9fb-4383-827a-5ae317e59ee5",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Stack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f5c07475-2d35-47b4-aa64-e78b790a5759",
+                    "path": "<Mouse>/*Button",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Stack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb1746ad-0f23-439c-96ee-f3d368e12d67",
+                    "path": "<Touchscreen>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Stack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

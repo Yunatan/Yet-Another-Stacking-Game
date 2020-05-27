@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d90e82a3d061514dbf471c22d568bb0, type: 3}
+  m_Name: GameSettingsInstaller
+  m_EditorClassIdentifier: 
+  GameInstaller:
+    SlabPrefab: {fileID: 7446291736118506230, guid: 3b92e5ef26c19074c883357baa51db03,
+      type: 3}
+    InitialSlabPrefab: {fileID: 4629608285618758243, guid: cfab9fc5e86adbd4e877cd9a5df08974,
+      type: 3}
+  SlabManager:
+    maximumDistance: 1.3
+    moveSpeed: 1.9
+    snapThreshold: 0.02
+  AudioHandler:
+    StackSound: {fileID: 8300000, guid: 65b87e59f44d5fe4bbe73141d9233d78, type: 3}
+    PerfectStackSound: {fileID: 8300000, guid: 950e643e240aa3f4294d0c51f37000d1, type: 3}
